@@ -41,6 +41,10 @@ required for your use of the application. (NOTE: DO NOT edit the `email_password
 8. Use the `cd` command once more to enter the `src` directory.
 9. Enter the command `python email_writer.py`, and your email should be sent to its intended receiver.
 
+## Features I wish to implement in the future
+
+In the future, I wish to implement a feature that allows the user to send automated emails on a specified time interval.
+
 ## Like this project?
 
 Give it a star!
