@@ -16,12 +16,13 @@ I can write on multiple lines to indicate paragraphs in my automated email.
 """
 
 em = EmailMessage()
+# set attributes for the EmailMessage object using the variables we defined earlier
 em['From'] = email_sender
 em['To'] = email_receiver
 em['Subject'] = subject
 em.set_content(body)
 
-context = ssl.create_default_context()
+context = ssl.create_default_context() # add a layer of security using ssl
 
 with smtplib.SMTP_SSL('smtp.gmail.com', 465, context=context)as smtp:
     smtp.login(email_sender, email_password)
