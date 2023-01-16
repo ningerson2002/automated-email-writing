@@ -1,3 +1,7 @@
+![Build](https://img.shields.io/github/actions/workflow/status/ningerson2002/automated-email-writing/build.yml)
+![License](https://img.shields.io/github/license/ningerson2002/automated-email-writing)
+![Last Commit](https://img.shields.io/github/last-commit/ningerson2002/automated-email-writing)
+
 # Automatic Email Writer
 
 ![Logo](images/Logo.png)
