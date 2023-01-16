@@ -21,8 +21,8 @@ Next, you're going to need to configure the program to meet your specific needs.
    ![](images/clone-repo.jpg)
    ![](images/download-zip.jpg)
    * Then, use whatever ZIP manager you use to extract the files to its desired directory.
-2. In this project's directory, enter the `main.py` file using any text editor. If you aren't sure what to use, use
-Notepad which is natively installed to your system.
+2. In this project's directory, enter the `email_writer.py` file in the `src` directory using any text editor. If you
+aren't sure what to use, use Notepad which is natively installed to your system.
 3. Replace the values within the quotes for `email_sender`, `email_reciever`, `subject`, and `body` with the information
 required for your use of the application. (NOTE: DO NOT edit the `email_password` value just yet)
 4. Go to https://myaccount.google.com/ and set up two-factor authentication. This program cannot be used without this.
@@ -38,7 +38,8 @@ required for your use of the application. (NOTE: DO NOT edit the `email_password
    ![](images/app-passwords-4.jpg)
 6. Replace the value within quotes for the `email_password` variable with the password you just copied.
 7. Open your terminal window and use the `cd` command to navigate to the directory in which this project was cloned.
-8. Enter the command `python main.py`, and your email should be sent to its intended receiver.
+8. Use the `cd` command once more to enter the `src` directory.
+9. Enter the command `python email_writer.py`, and your email should be sent to its intended receiver.
 
 ## Like this project?
 
